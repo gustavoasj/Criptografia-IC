@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Criptografia.iml" filepath="$PROJECT_DIR$/Criptografia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Criptografia-IC.iml" filepath="$PROJECT_DIR$/Criptografia-IC.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

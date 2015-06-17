@@ -137,7 +137,7 @@ public class ConversaoIC {
 
     public ConversaoIC(Integer[] entrada) {
         input = entrada;
-        crypt = new Integer[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        crypt = new Integer[input.length];
         //Encrypt
         //encrypt(input, crypt);
         //System.out.println("");
