@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Entrada"
+        android:id="@+id/input_text"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="20dp"
+        android:id="@+id/input"
+        android:layout_below="@+id/input_text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Encriptado"
+        android:id="@+id/textView"
+        android:layout_below="@+id/input"
+        android:paddingTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="20dp"
+        android:text=""
+        android:id="@+id/encript"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Decriptado"
+        android:id="@+id/textView2"
+        android:paddingTop="20dp"
+        android:layout_below="@+id/encript"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="20dp"
+        android:text=""
+        android:id="@+id/decript"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:textSize="18dp"
+        android:text="Criptografar"
+        android:id="@+id/encrypt_button"
+        android:layout_below="@+id/decript"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:textSize="18dp"
+        android:text="Decriptografar"
+        android:id="@+id/decrypt_button"
+        android:layout_below="@+id/encrypt_button"
+        android:layout_alignLeft="@+id/encrypt_button"
+        android:layout_alignStart="@+id/encrypt_button" />
+</RelativeLayout>
